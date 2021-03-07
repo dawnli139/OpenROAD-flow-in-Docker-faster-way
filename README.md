@@ -72,7 +72,7 @@ klayout results/nangate45/gcd/6_final.gds
 
 Enjoy!
 
-## 六、基于原项目编译逻辑做出的部分处理
+## 注：该项目的部分产生过程如下：
 
 ### clone[原项目](https://github.com/The-OpenROAD-Project/OpenROAD-flow.git)
 
