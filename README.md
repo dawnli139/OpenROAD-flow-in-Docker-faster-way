@@ -25,7 +25,7 @@ sudo service docker start
 
 ## 二、搭建步骤
 
-### 下载[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/yM7zqamYn6zm)文件并在其目录下使用以下命令解压
+### 下载[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/JVj6rmquiqIb)文件并在其目录下使用以下命令解压
 
 ```shell
 
