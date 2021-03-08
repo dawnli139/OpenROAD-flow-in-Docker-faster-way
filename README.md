@@ -47,9 +47,19 @@ cd OpenROAD-flow
 
 ## 三、使用
 
+运行并进入容器
+
 ```shell
 
-docker run -itd -u $(id -u ${USER}):$(id -g ${USER}) --name openroad openroad/flow bash
+docker run -it -u $(id -u ${USER}):$(id -g ${USER}) --name openroad openroad/flow bash
+source ./setup_env.sh
+
+```
+
+设置环境变量
+
+```shell
+
 source ./setup_env.sh
 
 ```
