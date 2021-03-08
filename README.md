@@ -52,7 +52,6 @@ cd OpenROAD-flow
 ```shell
 
 docker run -it -u $(id -u ${USER}):$(id -g ${USER}) --name openroad openroad/flow bash
-source ./setup_env.sh
 
 ```
 
