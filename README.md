@@ -5,7 +5,7 @@
 通过修改[OpenROAD-flow项目](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)逻辑满足特殊情况下Docker的快速搭建
 (解决国内网络环境对Docker构建中涉及git、wget等命令的过程产生的影响）
 
-搭建需求如下：
+### 搭建需求如下：
 
 系统
 
@@ -48,7 +48,7 @@ cd OpenROAD-flow
 
 ## 三、使用
 
-运行并进入容器
+### 运行并进入容器
 
 ```shell
 
@@ -56,7 +56,7 @@ docker run -it -u $(id -u ${USER}):$(id -g ${USER}) --name openroad openroad/flo
 
 ```
 
-设置环境变量
+### 设置环境变量
 
 ```shell
 
@@ -74,7 +74,7 @@ cd flow && make
 
 ## 五、查看示例
 
-此步骤需要安装[klayout](https://www.klayout.de/build.html)
+### 此步骤需要安装[klayout](https://www.klayout.de/build.html)
 
 ```shell
 
@@ -82,7 +82,7 @@ klayout results/nangate45/gcd/6_final.gds
 
 ```
 
-Enjoy!
+### Enjoy!
 
 ## 注：该项目的部分产生过程如下：
 
