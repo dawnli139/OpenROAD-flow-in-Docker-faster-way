@@ -9,6 +9,8 @@
 系统
 
 * Ubuntu20.04LTS（Aliyun—ECS with 2h4G）
+* or Ubuntu20.04LTS(VMware虚拟机 2h2G)
+* or Google cloud shell
 
 工具
 
