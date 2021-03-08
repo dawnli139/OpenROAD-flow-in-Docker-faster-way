@@ -3,6 +3,7 @@
 ## 一、简介及环境
 
 通过修改[OpenROAD-flow项目](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)逻辑满足特殊情况下Docker的快速搭建
+(解决国内网络环境对Docker构建中涉及git、wget等命令的过程产生的影响）
 
 搭建需求如下：
 
