@@ -134,7 +134,7 @@ vim Makefile
 
 ### 打包
 
-最终形成本项目未分割原文件[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/JVj6rmquiqIb)）
+最终形成本项目未分割原文件[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/JVj6rmquiqIb)
 
 
 ### 本项目仅供个人学习使用，作者仅对原项目进行编译逻辑上的调整。
