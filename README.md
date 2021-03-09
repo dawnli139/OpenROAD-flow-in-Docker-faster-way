@@ -29,19 +29,27 @@ sudo service docker start
 
 ## 二、搭建步骤
 
-### 解压
-
-下载[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/JVj6rmquiqIb)文件并在其目录下使用以下命令解压
+### 获取本项目
 
 ```shell
 
-tar -pzxf OpenROAD-flow-docker.tar.gz 
+git clone https://github.com/dawnli-github/OpenROAD-flow-in-Docker-faster-way.git
+cd OpenROAD-flow-in-Docker-faster-way
+
+```
+
+### 解压
+
+```shell
+
+cat OpenROAD-flow-docker.tar.gz.* | tar -pzxv
+rm -rf OpenROAD-flow-docker.tar.gz.*
 
 ```
 
 ### 编译
 
-在OpenROAD-flow目录，执行编译
+OpenROAD-flow目录下执行编译
 
 ```shell
 cd OpenROAD-flow
@@ -124,4 +132,10 @@ vim Makefile
 
 并将该目录下Dockerfile内文本以[Dockerfile-transform](https://cloud.189.cn/t/6JZnyeYbArMv)内文本替代（切勿直接替换文件）
 
-本项目仅供个人学习使用，本人仅对原项目进行编译逻辑上的修改，所有LICENSE沿用原项目并在项目内的文件中保留所有声明，请勿用于违法途径。
+### 打包
+
+最终形成本项目未分割原文件[OpenROAD-flow-docker.tar.gz](https://cloud.189.cn/t/JVj6rmquiqIb)）
+
+
+### 本项目仅供个人学习使用，作者仅对原项目进行编译逻辑上的调整。
+### 所有LICENSE沿用原项目并在项目内的文件中保留所有声明，请勿用于违法途径。
